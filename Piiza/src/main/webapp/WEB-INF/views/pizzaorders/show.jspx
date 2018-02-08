@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_pizza_sring_domain_PizzaOrder" object="${pizzaorder}" path="/pizzaorders" z="tQP811qv+T9Dt01UvcJpKKM93u0=">
+        <field:display field="name" id="s_com_pizza_sring_domain_PizzaOrder_name" object="${pizzaorder}" z="FkIEQb/uUPunBpkKeQxFy053XPA="/>
+        <field:display field="address" id="s_com_pizza_sring_domain_PizzaOrder_address" object="${pizzaorder}" z="SGT0V5owspZLmztsHdpQobh7U8E="/>
+        <field:display field="total" id="s_com_pizza_sring_domain_PizzaOrder_total" object="${pizzaorder}" z="+Bie1ezBwktstbQ+EkqsZSiqasA="/>
+        <field:display date="true" dateTimePattern="${pizzaOrder_deliverydate_date_format}" field="deliveryDate" id="s_com_pizza_sring_domain_PizzaOrder_deliveryDate" object="${pizzaorder}" z="GsudDfKFmTnWa8aOXaj6NcjCA+Q="/>
+        <field:display field="pizzas" id="s_com_pizza_sring_domain_PizzaOrder_pizzas" object="${pizzaorder}" z="9gu4GbQWIdkcQ5rE8m9bRT/ywRc="/>
+    </page:show>
+</div>

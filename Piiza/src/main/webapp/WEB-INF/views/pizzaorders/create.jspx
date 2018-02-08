@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_pizza_sring_domain_PizzaOrder" modelAttribute="pizzaOrder" path="/pizzaorders" render="${empty dependencies}" z="PKCQbOAVxmk+BxTelBGLzdUQ4gI=">
+        <field:input field="name" id="c_com_pizza_sring_domain_PizzaOrder_name" min="2" required="true" z="vjrI7kqJBJVjRleoJlBP8+oh2mQ="/>
+        <field:input field="address" id="c_com_pizza_sring_domain_PizzaOrder_address" max="30" z="qgWSc3TPrIW8iNlmajm64TU/PaY="/>
+        <field:input field="total" id="c_com_pizza_sring_domain_PizzaOrder_total" validationMessageCode="field_invalid_number" z="I676R6S0MGGl7DDMg3aXMJXsuIE="/>
+        <field:datetime dateTimePattern="${pizzaOrder_deliverydate_date_format}" field="deliveryDate" id="c_com_pizza_sring_domain_PizzaOrder_deliveryDate" z="HpTnzurIuezjwA7juwcAU0ylZ/8="/>
+        <field:select field="pizzas" id="c_com_pizza_sring_domain_PizzaOrder_pizzas" itemValue="id" items="${pizzas}" multiple="true" path="/pizzas" z="8kBWKPtSH7+quaehe6tIyaUiIvc="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_pizza_sring_domain_PizzaOrder" render="${not empty dependencies}" z="vezf8K1YhWCRXvwqSVRwVndRNwY="/>
+</div>

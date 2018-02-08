@@ -1,0 +1,21 @@
+<aspectj>
+<aspects>
+<aspect name="com.pizza.sring.domain.BaseDataOnDemand_Roo_Configurable"/>
+<aspect name="com.pizza.sring.domain.ToppingDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.pizza.sring.domain.PizzaIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.pizza.sring.domain.ToppingDataOnDemand_Roo_Configurable"/>
+<aspect name="com.pizza.sring.domain.PizzaOrderDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.pizza.sring.domain.PizzaIntegrationTest_Roo_Configurable"/>
+<aspect name="com.pizza.sring.domain.ToppingIntegrationTest_Roo_Configurable"/>
+<aspect name="com.pizza.sring.domain.PizzaOrderIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.pizza.sring.domain.PizzaOrderIntegrationTest_Roo_Configurable"/>
+<aspect name="com.pizza.sring.domain.PizzaDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.pizza.sring.domain.BaseIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.pizza.sring.domain.BaseDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.pizza.sring.domain.PizzaOrderDataOnDemand_Roo_Configurable"/>
+<aspect name="com.pizza.sring.domain.ToppingIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.pizza.sring.domain.PizzaDataOnDemand_Roo_Configurable"/>
+<aspect name="com.pizza.sring.domain.BaseIntegrationTest_Roo_Configurable"/>
+</aspects>
+</aspectj>
+
